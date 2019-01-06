@@ -8,11 +8,11 @@ var config = {};
 // The hostname of your database server.
 config.databaseHost    = 'localhost';
 // The name of the database
-config.databaseDB      = 'example';
+config.databaseDB      = 'datakst';
 // The user used to authenticate against the database
-config.databaseUser    = 'example';
+config.databaseUser    = 'cdez';
 // The password used to authenticate against the database
-config.databasePass    = 'example';
+config.databasePass    = 'cdez';
 // The dialect used to connect, one of: mysql, postgres, mariadb or mssql. (sqlite not supported, fuck you Taras!)
 config.databaseDialect = 'mysql';
 
@@ -44,7 +44,7 @@ config.rateLimitSettings = {
 };
 
 // The URL at which websockets should be connected from
-config.websocketURL = 'wss://krist.ceriat.net';
+config.websocketURL = 'wss://solarium-j6x9gfgyd.now.sh';
 
 /*
  * KRIST SPECIFIC
